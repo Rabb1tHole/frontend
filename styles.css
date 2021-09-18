@@ -1,10 +1,140 @@
 
 
 body{
-    background-color: antiquewhite;
+    background-color: #faebd7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h2.home_name{
-    margin-right: 35px;
-    margin-top: 45px;
+    position: absolute;
+    font-size: 50px;
+    margin-top: 30px;
+    left: 37px;
 }
+
+.wrapper{
+    opacity: 33%;
+    position: absolute;
+    left: 100px;
+    top: 30px;
+}
+
+button.button{
+    position: absolute;
+    justify-content: space-around;
+    background-color: #F35354;
+    margin-left: 46.4px;
+    margin-top: 30px;
+    border: none;
+}
+
+
+
+.button {
+    position: absolute;
+    top: 110px;
+    width: 69%;
+    margin: .5em;
+    padding: .7em 1em;
+    background-color: #F35354;
+    margin-left: 75px;
+    margin-top: 30px;
+    border: 2px solid rgba(112, 111, 211, 0);
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    transition: .3s;
+    box-shadow: 2px 3px;
+}
+
+.button:focus {
+     color: #4d0212;
+     border: 1.5px solid rgb(0, 0, 0);
+     box-shadow: 0px 0px 0px 1px rgb(58, 57, 110);
+     animation: anime-shadow .3s forwards;
+}
+
+button.button_second{
+    position: absolute;
+    justify-content: space-around;
+    background-color: #F35354;
+    margin-left: 46.4px;
+    margin-top: 30px;
+    border: none;
+}
+
+
+
+.button_second {
+    position: absolute;
+    top: 190px;
+    width: 69%;
+    margin: .5em;
+    padding: .7em 1em;
+    background-color: #F35354;
+    margin-left: 75px;
+    margin-top: 30px;
+    border: 2px solid rgba(112, 111, 211, 0);
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    transition: .3s;
+    box-shadow: 2px 3px;
+}
+
+.button_second:focus {
+    color: #4d0212;
+    border: 1.5px solid rgb(0, 0, 0);
+    box-shadow: 0px 0px 0px 1px rgb(58, 57, 110);
+    animation: anime-shadow .3s forwards;
+}
+
+
+button.button_last{
+    position: absolute;
+    justify-content: space-around;
+    background-color: #3868c2;
+    margin-left: 46.4px;
+    margin-top: 30px;
+    border: none;
+}
+
+.button_last {
+    position: absolute;
+    width: 69%;
+    margin: .5em;
+    padding: .7em 1em;
+    background-color: #3868c2;
+    margin-left: 75px;
+    margin-top: 30px;
+    border: 2px solid rgba(112, 111, 211, 0);
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    transition: .3s;
+    top: 270px;
+    box-shadow: 2px 3px;
+}
+
+.button_last:focus {
+     color: #011131;
+     border: 1.5px solid rgb(0, 0, 0);
+     box-shadow: 0px 0px 0px 1px rgb(58, 57, 110);
+     animation: anime-shadow .3s forwards;
+}
+
+@keyframes anime-shadow {
+    100% {
+        box-shadow: 0px 0px 20px 10px rgba(112, 111, 211, 0);
+    }
+}
+
+.frost {
+    backdrop-filter: blur(2px) saturate(200%);
+    -webkit-backdrop-filter: blur(2px) saturate(200%);
+    box-shadow:  -0.1px -0.1px 1px #000000,
+               0.1px 0.1px 1px #000000;
+  }
+
