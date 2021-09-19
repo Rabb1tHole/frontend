@@ -129,7 +129,7 @@ button.button_last{
 button.button_login{
     position: absolute;
     justify-content: space-around;
-    background-color: #3868c2;
+    background-color: #F35354;
     margin-left: 46.4px;
     margin-top: 30px;
     border: none;
@@ -140,7 +140,7 @@ button.button_login{
     width: 69%;
     margin: .5em;
     padding: .7em 1em;
-    background-color: #3868c2;
+    background-color: #F35354;
     margin-left: 75px;
     margin-top: 30px;
     border: 2px solid rgba(112, 111, 211, 0);
@@ -148,7 +148,7 @@ button.button_login{
     outline: none;
     cursor: pointer;
     transition: .3s;
-    top: 340px;
+    top: 230px;
     box-shadow: 2px 3px;
 }
 
@@ -215,3 +215,38 @@ button.button_login{
     transition: width .3s;
 }
 
+/* User input*/
+
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+    input {
+        border: none;
+        -webkit-appearance: none;
+        -ms-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        background: #f2f2f2;
+        padding: 12px;
+        border-radius: 3px;
+        width: 250px;
+        outline:none;
+        margin-left: 25px;
+        margin-top: 7px;
+    }
+
+    input:focus::placeholder{
+        color: transparent;
+    }
+
+    input::placeholder{
+        color: #222;
+        transition: color .3s ease;
+    }
+
+.login_123{
+    position: absolute;
+    margin-top: 107px;
+}
