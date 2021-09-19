@@ -2,7 +2,8 @@
 
 body{
     background-color: #faebd7;
-    /* background-image: url(/images/background_2.png); */
+    background-image: url(/images/new14.png);
+    background-size: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,7 +26,7 @@ h2.home_name{
 button.button{
     position: absolute;
     justify-content: space-around;
-    background-color: #F35354;
+    background-color: #f17070;
     margin-left: 46.4px;
     margin-top: 30px;
     border: none;
@@ -39,7 +40,7 @@ button.button{
     width: 69%;
     margin: .5em;
     padding: .7em 1em;
-    background-color: #F35354;
+    background-color: #f17070;
     margin-left: 75px;
     margin-top: 30px;
     border: 2px solid rgba(112, 111, 211, 0);
@@ -60,7 +61,7 @@ button.button{
 button.button_second{
     position: absolute;
     justify-content: space-around;
-    background-color: #F35354;
+    background-color: #f17070;
     margin-left: 46.4px;
     margin-top: 30px;
     border: none;
@@ -74,7 +75,7 @@ button.button_second{
     width: 69%;
     margin: .5em;
     padding: .7em 1em;
-    background-color: #F35354;
+    background-color: #f17070;
     margin-left: 75px;
     margin-top: 30px;
     border: 2px solid rgba(112, 111, 211, 0);
@@ -96,7 +97,7 @@ button.button_second{
 button.button_last{
     position: absolute;
     justify-content: space-around;
-    background-color: #3868c2;
+    background-color: #9cdaf7;
     margin-left: 46.4px;
     margin-top: 30px;
     border: none;
@@ -107,7 +108,7 @@ button.button_last{
     width: 69%;
     margin: .5em;
     padding: .7em 1em;
-    background-color: #3868c2;
+    background-color: #9cdaf7;
     margin-left: 75px;
     margin-top: 30px;
     border: 2px solid rgba(112, 111, 211, 0);
@@ -129,7 +130,7 @@ button.button_last{
 button.button_login{
     position: absolute;
     justify-content: space-around;
-    background-color: #F35354;
+    background-color: #f17070;
     margin-left: 46.4px;
     margin-top: 30px;
     border: none;
@@ -140,7 +141,7 @@ button.button_login{
     width: 69%;
     margin: .5em;
     padding: .7em 1em;
-    background-color: #F35354;
+    background-color: #f17070;
     margin-left: 75px;
     margin-top: 30px;
     border: 2px solid rgba(112, 111, 211, 0);
@@ -178,8 +179,9 @@ button.button_login{
 } */
 
 .back { 
-    margin-top: 415px;
-    margin-left: 10px;
+    margin-top: 389px;
+    margin-bottom: 8.7px;
+    margin-left: 12px;
     font-size: 18px;
     display: inline-block;
     text-decoration: none;
@@ -189,13 +191,12 @@ button.button_login{
 .home_page{
     position: absolute;
     font-size: 18px;
-    margin-top: 415px;
+    margin-top: 410px;
     margin-left: 10px;
     text-decoration: none;
     color: rgb(0, 0, 0);
 
 }
-
 
 
 .link-effect::after{
@@ -228,7 +229,7 @@ button.button_login{
         -ms-appearance: none;
         -moz-appearance: none;
         appearance: none;
-        background: #f2f2f2;
+        background: #eee0e0;
         padding: 12px;
         border-radius: 3px;
         width: 250px;
